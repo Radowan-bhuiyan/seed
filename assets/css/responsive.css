@@ -1,0 +1,82 @@
+/*******************************
+	All Responsive Code
+*******************************/
+
+@media only screen and (min-width: 991px) and (max-width: 1199px) {}
+
+@media only screen and (min-width:767px) and (max-width: 991px) {}
+
+@media only screen and (min-width:767px) and (max-width: 1199px) {
+	.res {
+		margin: 27px 0px;
+	}
+}
+
+@media only screen and (min-width:480px) and (max-width:991px) {
+	/*s*/
+}
+
+@media only screen and (min-width:300px) and (max-width:991px) {
+	.main-body .header_area {
+		padding: 0px;
+	}
+	.nav-text li img {
+		max-width: 80px;
+	}
+	.book {
+		padding-top: 35px;
+	}
+	.footer-area a {
+		color: #FFFFFF;
+	}
+}
+
+@media only screen and (min-width:300px) and (max-width:767px) {
+	html {
+		font-size: 50.5% !important;
+	}
+	.text-section p {
+		padding-bottom: 10px;
+	}
+}
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 991px) and (max-width: 1900px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width:992px) and (max-width:1199px) {}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 300px) and (max-width: 575px) {
+	.hero-text-box.text-center {
+		padding: 28px;
+	}
+	nav ul li {
+		display: inline-block;
+		padding-right: 5px;
+	}
+}
+
+@media only screen and (min-width:300px) and (max-width:479px) {
+	.nav-text {
+		display: block;
+		width: 100%;
+		text-align: left!important;
+	}
+	.nav-text ul.text-r {
+		text-align: left!important;
+		padding: 5px 0px;
+	}
+}
+
+@media only screen and (min-width:300px) and (max-width:400px) {
+	ul.ml-auto {
+		margin-left: initial !important;
+	}
+}
